@@ -1,0 +1,27 @@
+{
+  "name": "@ai-live-copilot/realtime",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/main.ts",
+    "start": "node dist/main.js",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit",
+    "test": "echo 'No tests yet' && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "@ai-live-copilot/contracts": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.4",
+    "tsx": "^4.16.2",
+    "eslint": "^8.57.0",
+    "@typescript-eslint/parser": "^7.16.0",
+    "@typescript-eslint/eslint-plugin": "^7.16.0"
+  }
+}

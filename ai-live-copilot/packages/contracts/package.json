@@ -1,0 +1,23 @@
+{
+  "name": "@ai-live-copilot/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit",
+    "test": "echo 'No tests yet' && exit 0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

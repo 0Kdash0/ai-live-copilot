@@ -1,0 +1,24 @@
+{
+  "name": "ai-live-copilot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI Live Copilot — 面向抖音主播的商业化 AI 直播助手 SaaS",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "build": "pnpm -r run build",
+    "lint": "pnpm -r run lint",
+    "test": "pnpm -r run test",
+    "typecheck": "pnpm -r run typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "eslint": "^8.57.0",
+    "@typescript-eslint/parser": "^7.16.0",
+    "@typescript-eslint/eslint-plugin": "^7.16.0"
+  }
+}
